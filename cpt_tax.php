@@ -30,6 +30,7 @@ function base_custom_init() {
 		'has_archive' => false,
 		'hierarchical' => false,
 		'menu_position' => null,
+		'menu_icon' => 'dashicons-format-quote',
 		'supports' => array( 'title', 'editor', 'thumbnail' ),
 	);
 	register_post_type( 'testimonial', $args );
