@@ -32,6 +32,7 @@ function base_custom_init() {
 		'menu_position' => null,
 		'menu_icon' => 'dashicons-format-quote',
 		'supports' => array( 'title', 'editor', 'thumbnail' ),
+		'show_in_rest' => false,
 	);
 	register_post_type( 'testimonial', $args );
 }
